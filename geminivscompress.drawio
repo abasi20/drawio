@@ -1,4 +1,4 @@
-<mxfile host="app.diagrams.net" modified="2022-04-12T02:59:43.179Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="hBXwG0F9-L6XWIWVQR9f" version="17.4.3" type="github">
+<mxfile host="app.diagrams.net" modified="2022-04-12T03:05:14.785Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36" etag="ybm2Cu_k-Eae8Jgzlr9i" version="17.4.3" type="github">
   <diagram id="PA5HQk3RtvyoMGpbacmi" name="Page-1">
     <mxGraphModel dx="939" dy="525" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
@@ -8,7 +8,7 @@
           <mxGeometry x="359" y="50" width="301" height="290" as="geometry" />
         </mxCell>
         <mxCell id="yBssoshlwt1bd_vUXHJR-28" value="" style="rounded=0;whiteSpace=wrap;html=1;" parent="1" vertex="1">
-          <mxGeometry x="418" y="137" width="172" height="177" as="geometry" />
+          <mxGeometry x="423" y="137" width="172" height="177" as="geometry" />
         </mxCell>
         <mxCell id="yBssoshlwt1bd_vUXHJR-21" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;" parent="1" source="yBssoshlwt1bd_vUXHJR-1" target="yBssoshlwt1bd_vUXHJR-20" edge="1">
           <mxGeometry relative="1" as="geometry" />
@@ -63,7 +63,7 @@
         <mxCell id="yBssoshlwt1bd_vUXHJR-23" value="排序" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="449" y="84" width="120" height="40" as="geometry" />
         </mxCell>
-        <mxCell id="yBssoshlwt1bd_vUXHJR-24" value="预编码" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#66B2FF;" parent="1" vertex="1">
+        <mxCell id="yBssoshlwt1bd_vUXHJR-24" value="预编码" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#B20000;fontColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="442" y="143" width="128" height="40" as="geometry" />
         </mxCell>
         <mxCell id="3vYjYJTJx0zQ6sNzfr7p-3" value="" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;fontSize=12;fontColor=#66B2FF;" edge="1" parent="1" source="yBssoshlwt1bd_vUXHJR-25" target="3vYjYJTJx0zQ6sNzfr7p-2">
@@ -72,7 +72,7 @@
         <mxCell id="yBssoshlwt1bd_vUXHJR-25" value="压缩编码存储" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;" parent="1" vertex="1">
           <mxGeometry x="447.75" y="200" width="120" height="34" as="geometry" />
         </mxCell>
-        <mxCell id="yBssoshlwt1bd_vUXHJR-27" value="增加预编码过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#66B2FF;" parent="1" vertex="1">
+        <mxCell id="yBssoshlwt1bd_vUXHJR-27" value="增加预编码过程" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#B20000;" parent="1" vertex="1">
           <mxGeometry x="596" y="147" width="60" height="30" as="geometry" />
         </mxCell>
         <mxCell id="yBssoshlwt1bd_vUXHJR-32" value="tune chunk" style="swimlane;fontStyle=0;childLayout=stackLayout;horizontal=1;startSize=30;horizontalStack=0;resizeParent=1;resizeParentMax=0;resizeLast=0;collapsible=1;marginBottom=0;" parent="1" vertex="1">
@@ -102,8 +102,11 @@
         <mxCell id="3vYjYJTJx0zQ6sNzfr7p-1" value="图压缩&lt;br&gt;流程（支持&lt;font style=&quot;font-size: 12px&quot;&gt;并行）&lt;/font&gt;" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#97D077;" vertex="1" parent="1">
           <mxGeometry x="359" y="105" width="100" height="30" as="geometry" />
         </mxCell>
-        <mxCell id="3vYjYJTJx0zQ6sNzfr7p-2" value="tune_chunck" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#66B2FF;" vertex="1" parent="1">
+        <mxCell id="3vYjYJTJx0zQ6sNzfr7p-2" value="tune_chunck" style="shape=parallelogram;perimeter=parallelogramPerimeter;whiteSpace=wrap;html=1;fixedSize=1;strokeColor=#B20000;fontColor=#B20000;" vertex="1" parent="1">
           <mxGeometry x="448" y="262" width="120" height="40" as="geometry" />
+        </mxCell>
+        <mxCell id="3vYjYJTJx0zQ6sNzfr7p-4" value="&lt;font face=&quot;helvetica&quot;&gt;基于编码后buffer长度进行负载平衡&lt;/font&gt;" style="text;whiteSpace=wrap;html=1;fontSize=12;fontColor=#B20000;" vertex="1" parent="1">
+          <mxGeometry x="602" y="239" width="54" height="78" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
